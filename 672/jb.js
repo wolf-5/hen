@@ -1,3 +1,4 @@
+function jailbreak(){
 var ropchain_array = new Uint32Array(99998);
 var ropchain = read_ptr_at(addrof(ropchain_array)+0x10);
 var ropchain_offset = 2;
@@ -56867,3 +56868,11 @@ var printf_ans = read_mem_as_string(printf_buf, printf_buf_end-printf_buf);
 var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
 var _ = malloc_nogc.pop();
+if (main_ret == 179 || main_ret == 0){
+
+}
+else {
+
+alert("Jailbreak fail, restart your ps4 and try again");
+     }
+}

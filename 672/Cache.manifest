@@ -1,15 +1,8 @@
 CACHE MANIFEST 
-# The Wolf Host 505 ( Fri 03/25/2022 )
+# The Wolf Host 505 ( Wed 04/06/2022 )
 
 cache.html
-exploit.js
-goldhen222.js
-helpers.js
+exp_loader.js
+goldhen222.bin
 index.html
 jb.js
-malloc.js
-mira.js
-netcat.js
-rop.js
-syscalls.js
-syscalls2.js
